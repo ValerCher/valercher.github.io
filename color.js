@@ -12,6 +12,10 @@ document.addEventListener('DOMContentLoaded', function ()
 });
 
 document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById(')
+
+
+
     document.getElementById('page2').onclick=function() {
         window.location.href = 'page2.html';
     }
