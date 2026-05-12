@@ -10,3 +10,9 @@ document.addEventListener('DOMContentLoaded', function ()
          function(){body.style.backgroundColor='aqua';}
         );
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.addElementById('page2').onclick=function() {
+        window.location.href = 'page2.html';
+    }
+})
