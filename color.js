@@ -15,4 +15,4 @@ document.addEventListener('DOMContentLoaded', function() {
     document.addElementById('page2').onclick=function() {
         window.location.href = 'page2.html';
     }
-})
+});
