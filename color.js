@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function ()
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    document.addElementById('page2').onclick=function() {
+    document.getElementById('page2').onclick=function() {
         window.location.href = 'page2.html';
     }
 });
